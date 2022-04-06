@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.UI", "sonarqube-demo.UI\sonarqube-demo.UI.csproj", "{585DC699-2746-41F3-AB32-9614AC2A62EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.UnitTest", "sonarqube-demo.UnitTest\sonarqube-demo.UnitTest.csproj", "{8C386309-CB48-4426-8DF4-E025AA92FEC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A12B9489-71B5-4883-B67F-F4787096A11C}
+	EndGlobalSection
+EndGlobal
