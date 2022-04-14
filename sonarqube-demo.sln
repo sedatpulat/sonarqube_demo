@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.20
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.UI", "sonarqube-demo.UI\sonarqube-demo.UI.csproj", "{585DC699-2746-41F3-AB32-9614AC2A62EB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.UnitTest", "sonarqube-demo.UnitTest\sonarqube-demo.UnitTest.csproj", "{8C386309-CB48-4426-8DF4-E025AA92FEC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{380BF577-89A7-46E3-9409-7B0540D29D32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6FDE10FC-A1E7-4F55-8C71-9740D8358825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.Dapper", "sonarqube-demo.Dapper\sonarqube-demo.Dapper.csproj", "{82CF31BB-547A-4448-8E62-A0AE255855D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.Data", "sonarqube-demo.Data\sonarqube-demo.Data.csproj", "{302CF817-6532-4847-A482-4B5342AE044E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.EntityFrameworkCore", "sonarqube-demo.EntityFrameworkCore\sonarqube-demo.EntityFrameworkCore.csproj", "{8DA598F7-8CE2-491C-95AE-0CEE8A4D849E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonarqube-demo.UI", "sonarqube-demo.UI\sonarqube-demo.UI.csproj", "{4B6E7AD9-383E-4312-8FF0-1D4350402CDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +23,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{585DC699-2746-41F3-AB32-9614AC2A62EB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C386309-CB48-4426-8DF4-E025AA92FEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CF31BB-547A-4448-8E62-A0AE255855D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CF31BB-547A-4448-8E62-A0AE255855D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CF31BB-547A-4448-8E62-A0AE255855D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CF31BB-547A-4448-8E62-A0AE255855D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302CF817-6532-4847-A482-4B5342AE044E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302CF817-6532-4847-A482-4B5342AE044E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302CF817-6532-4847-A482-4B5342AE044E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302CF817-6532-4847-A482-4B5342AE044E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA598F7-8CE2-491C-95AE-0CEE8A4D849E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA598F7-8CE2-491C-95AE-0CEE8A4D849E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA598F7-8CE2-491C-95AE-0CEE8A4D849E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA598F7-8CE2-491C-95AE-0CEE8A4D849E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6E7AD9-383E-4312-8FF0-1D4350402CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6E7AD9-383E-4312-8FF0-1D4350402CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6E7AD9-383E-4312-8FF0-1D4350402CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6E7AD9-383E-4312-8FF0-1D4350402CDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A12B9489-71B5-4883-B67F-F4787096A11C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C386309-CB48-4426-8DF4-E025AA92FEC1} = {6FDE10FC-A1E7-4F55-8C71-9740D8358825}
+		{82CF31BB-547A-4448-8E62-A0AE255855D0} = {380BF577-89A7-46E3-9409-7B0540D29D32}
+		{302CF817-6532-4847-A482-4B5342AE044E} = {380BF577-89A7-46E3-9409-7B0540D29D32}
+		{8DA598F7-8CE2-491C-95AE-0CEE8A4D849E} = {380BF577-89A7-46E3-9409-7B0540D29D32}
+		{4B6E7AD9-383E-4312-8FF0-1D4350402CDF} = {380BF577-89A7-46E3-9409-7B0540D29D32}
 	EndGlobalSection
 EndGlobal

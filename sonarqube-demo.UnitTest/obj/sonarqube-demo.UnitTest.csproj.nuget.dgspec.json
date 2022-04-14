@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj": {}
+    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj": {}
   },
   "projects": {
-    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj": {
+    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj",
+        "projectUniqueName": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj",
         "projectName": "sonarqube-demo.UnitTest",
-        "projectPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj",
+        "projectPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UnitTest/sonarqube-demo.UnitTest.csproj",
         "packagesPath": "/Users/sedatpulat/.nuget/packages/",
-        "outputPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UnitTest/obj/",
+        "outputPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UnitTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sedatpulat/.config/NuGet/NuGet.Config"

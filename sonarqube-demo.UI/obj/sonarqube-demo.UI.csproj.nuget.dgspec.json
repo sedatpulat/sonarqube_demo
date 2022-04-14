@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UI/sonarqube-demo.UI.csproj": {}
+    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UI/sonarqube-demo.UI/sonarqube-demo.UI.csproj": {}
   },
   "projects": {
-    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UI/sonarqube-demo.UI.csproj": {
+    "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UI/sonarqube-demo.UI/sonarqube-demo.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UI/sonarqube-demo.UI.csproj",
+        "projectUniqueName": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UI/sonarqube-demo.UI/sonarqube-demo.UI.csproj",
         "projectName": "sonarqube-demo.UI",
-        "projectPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UI/sonarqube-demo.UI.csproj",
+        "projectPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UI/sonarqube-demo.UI/sonarqube-demo.UI.csproj",
         "packagesPath": "/Users/sedatpulat/.nuget/packages/",
-        "outputPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube-demo.UI/obj/",
+        "outputPath": "/Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UI/sonarqube-demo.UI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sedatpulat/.config/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

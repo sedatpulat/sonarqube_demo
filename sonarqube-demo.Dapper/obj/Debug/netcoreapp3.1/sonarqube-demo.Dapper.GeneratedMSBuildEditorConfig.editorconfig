@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = sonarqube_demo.Dapper
+build_property.ProjectDir = /Users/sedatpulat/Projects/sonarqube-demo/sonarqube-demo/sonarqube_demo/sonarqube-demo.UI/sonarqube-demo.Dapper/
